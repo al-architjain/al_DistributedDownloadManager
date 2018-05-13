@@ -6,7 +6,7 @@ import time
 import select
 
 clientsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = socket.gethostname()
+host = int(sys.argv[2])
 port = int(sys.argv[1])
 
 clientsock.connect((host,port))
