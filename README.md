@@ -1,2 +1,2 @@
 # al_DistributedDownloadManager
-Under Construction
+Version 1.0 available for DDM. :)
